@@ -1,0 +1,29 @@
+{
+  "name": "economy-bot",
+  "version": "1.0.0",
+  "description": "Minecraft bot for making optimal trades",
+  "scripts": {
+    "getSigns": "getSigns.js",
+    "findDeals": "findDeals.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-wach/economy-bot.git"
+  },
+  "keywords": [
+    "minecraft",
+    "bot"
+  ],
+  "author": "Nathan Wachholz",
+  "bugs": {
+    "url": "https://github.com/n-wach/economy-bot/issues"
+  },
+  "homepage": "https://github.com/n-wach/economy-bot#readme",
+  "dependencies": {
+    "mineflayer": "^3.6.0",
+    "prismarine-viewer": "^1.19.3"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2"
+  }
+}
